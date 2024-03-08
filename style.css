@@ -1,0 +1,76 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+/* General Styling */
+body {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	background: linear-gradient(45deg, #ffb732, #ff3fc5);
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	position: relative;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+input {
+	width: 20rem;
+	height: 4rem;
+	background-color: grey;
+	opacity: 0.5;
+	font-size: 2rem;
+	display: block;
+	margin: 1rem auto;
+	color: black;
+}
+
+button {
+	position: absolute;
+	width: 8rem;
+	height: 4rem;
+	background-color: grey;
+	opacity: 0.5;
+	font-size: 2rem;
+	color: black;
+	display: block;
+	border-radius: 10%;
+	margin: auto 50rem;
+	bottom: -500px;
+}
+
+#next {
+	top: 4rem;
+}
+
+p {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+img {
+	position: absolute;
+	bottom: 1px;
+	z-index: -1;
+}
+
+/* Card classes */
+
+.card {
+	position: absolute;
+	visibility: hidden;
+	margin: auto 40rem;
+}
+
+.active {
+	visibility: visible;
+}
